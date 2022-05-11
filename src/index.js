@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app';
 import Youtube from './service/youtube';
+import '@fortawesome/fontawesome-free/js/all.js';
 
 const youtube = new Youtube(process.env.REACT_APP_YOUTUBE_API_KEY);
 ReactDOM.render(

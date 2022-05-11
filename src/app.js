@@ -45,6 +45,10 @@ function App({youtube}) {
                   <VideoList videos={videos} onVideoClick={selectVideo} display={selectedVideo ? 'list' : 'grid'}/>
               </div>
           </section>
+          <a href="https://github.com/Dayoung3460/youtube"
+             target="_blank" className="github">
+              <i className="fab fa-github-square"></i>
+          </a>
       </div>
   )
 }

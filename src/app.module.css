@@ -1,5 +1,6 @@
 .app {
-  max-width: 80rem
+  max-width: 80rem;
+  position: relative;
 }
 
 .content {
@@ -18,7 +19,14 @@
   .content {
     flex-direction: column;
   }
+}
 
+a {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  font-size: 24px;
+  color: #f44133;
 }
 
 
